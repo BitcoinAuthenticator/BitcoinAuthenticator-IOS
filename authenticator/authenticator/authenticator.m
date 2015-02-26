@@ -6,8 +6,8 @@
 //  Copyright (c) 2015 Bitcoin Authenticator. All rights reserved.
 //
 
-#import "authenticator.h"
+#import "Authenticator.h"
 
-@implementation authenticator
+@implementation Authenticator
 
 @end

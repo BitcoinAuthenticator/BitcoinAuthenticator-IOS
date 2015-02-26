@@ -6,17 +6,47 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E1E38B8B1A9F296700846ED5 /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E1E38B8C1A9F296700846ED5 /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				E1E38B911A9F29D000846ED5 /* MultiPlatform Build */,
+			);
+			dependencies = (
+				E1E38B901A9F29B000846ED5 /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		E1E38B5F1A9F21BE00846ED5 /* authenticator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1E38B5E1A9F21BE00846ED5 /* authenticator.h */; };
-		E1E38B611A9F21BE00846ED5 /* authenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E38B601A9F21BE00846ED5 /* authenticator.m */; };
+		E1D044861A9F63550056F495 /* BARemoteNotificationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */; };
+		E1D044871A9F63550056F495 /* BARemoteNotificationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */; };
+		E1D0448B1A9F6F430056F495 /* RemoteNotificationMessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */; };
+		E1D0448C1A9F6F430056F495 /* RemoteNotificationMessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */; };
+		E1E38B5F1A9F21BE00846ED5 /* Authenticator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1E38B5E1A9F21BE00846ED5 /* Authenticator.h */; };
+		E1E38B611A9F21BE00846ED5 /* Authenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E38B601A9F21BE00846ED5 /* Authenticator.m */; };
 		E1E38B671A9F21BE00846ED5 /* libauthenticator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E38B5B1A9F21BE00846ED5 /* libauthenticator.a */; };
 		E1E38B761A9F222400846ED5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E38B751A9F222400846ED5 /* Foundation.framework */; };
 		E1E38B781A9F222B00846ED5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E38B771A9F222B00846ED5 /* UIKit.framework */; };
-		E1E38B7C1A9F233200846ED5 /* authenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E38B5E1A9F21BE00846ED5 /* authenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E38B7C1A9F233200846ED5 /* Authenticator.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E38B5E1A9F21BE00846ED5 /* Authenticator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E38B961A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E38B941A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E38B971A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E38B951A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.m */; };
+		E1E38B9A1A9F2DF200846ED5 /* RemoteNotificationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E38B981A9F2DF200846ED5 /* RemoteNotificationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E38B9B1A9F2DF200846ED5 /* RemoteNotificationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E38B991A9F2DF200846ED5 /* RemoteNotificationHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		E1E38B681A9F21BE00846ED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E38B531A9F21BE00846ED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E38B5A1A9F21BE00846ED5;
+			remoteInfo = authenticator;
+		};
+		E1E38B8F1A9F29B000846ED5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E1E38B531A9F21BE00846ED5 /* Project object */;
 			proxyType = 1;
@@ -32,20 +62,28 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				E1E38B5F1A9F21BE00846ED5 /* authenticator.h in CopyFiles */,
+				E1E38B5F1A9F21BE00846ED5 /* Authenticator.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARemoteNotificationMessage.h; sourceTree = "<group>"; };
+		E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARemoteNotificationMessage.m; sourceTree = "<group>"; };
+		E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotificationMessageCenter.h; sourceTree = "<group>"; };
+		E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNotificationMessageCenter.m; sourceTree = "<group>"; };
 		E1E38B5B1A9F21BE00846ED5 /* libauthenticator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libauthenticator.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1E38B5E1A9F21BE00846ED5 /* authenticator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = authenticator.h; sourceTree = "<group>"; };
-		E1E38B601A9F21BE00846ED5 /* authenticator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = authenticator.m; sourceTree = "<group>"; };
+		E1E38B5E1A9F21BE00846ED5 /* Authenticator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Authenticator.h; sourceTree = "<group>"; };
+		E1E38B601A9F21BE00846ED5 /* Authenticator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Authenticator.m; sourceTree = "<group>"; };
 		E1E38B661A9F21BE00846ED5 /* authenticatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = authenticatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E38B6C1A9F21BE00846ED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1E38B751A9F222400846ED5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E1E38B771A9F222B00846ED5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1E38B941A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticatorAppDelegateExtender.h; sourceTree = "<group>"; };
+		E1E38B951A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticatorAppDelegateExtender.m; sourceTree = "<group>"; };
+		E1E38B981A9F2DF200846ED5 /* RemoteNotificationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotificationHandler.h; sourceTree = "<group>"; };
+		E1E38B991A9F2DF200846ED5 /* RemoteNotificationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNotificationHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +130,16 @@
 		E1E38B5D1A9F21BE00846ED5 /* authenticator */ = {
 			isa = PBXGroup;
 			children = (
-				E1E38B5E1A9F21BE00846ED5 /* authenticator.h */,
-				E1E38B601A9F21BE00846ED5 /* authenticator.m */,
+				E1E38B981A9F2DF200846ED5 /* RemoteNotificationHandler.h */,
+				E1E38B991A9F2DF200846ED5 /* RemoteNotificationHandler.m */,
+				E1E38B941A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.h */,
+				E1E38B951A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.m */,
+				E1E38B5E1A9F21BE00846ED5 /* Authenticator.h */,
+				E1E38B601A9F21BE00846ED5 /* Authenticator.m */,
+				E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */,
+				E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */,
+				E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */,
+				E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */,
 			);
 			path = authenticator;
 			sourceTree = "<group>";
@@ -121,7 +167,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E38B7C1A9F233200846ED5 /* authenticator.h in Headers */,
+				E1E38B961A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.h in Headers */,
+				E1E38B9A1A9F2DF200846ED5 /* RemoteNotificationHandler.h in Headers */,
+				E1D044861A9F63550056F495 /* BARemoteNotificationMessage.h in Headers */,
+				E1D0448B1A9F6F430056F495 /* RemoteNotificationMessageCenter.h in Headers */,
+				E1E38B7C1A9F233200846ED5 /* Authenticator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +186,7 @@
 				E1E38B581A9F21BE00846ED5 /* Frameworks */,
 				E1E38B591A9F21BE00846ED5 /* CopyFiles */,
 				E1E38B7B1A9F22FE00846ED5 /* Headers */,
+				E1E38B8A1A9F27A600846ED5 /* Build Framework */,
 			);
 			buildRules = (
 			);
@@ -179,6 +230,9 @@
 					E1E38B651A9F21BE00846ED5 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
+					E1E38B8B1A9F296700846ED5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
 				};
 			};
 			buildConfigurationList = E1E38B561A9F21BE00846ED5 /* Build configuration list for PBXProject "authenticator" */;
@@ -195,6 +249,7 @@
 			targets = (
 				E1E38B5A1A9F21BE00846ED5 /* authenticator */,
 				E1E38B651A9F21BE00846ED5 /* authenticatorTests */,
+				E1E38B8B1A9F296700846ED5 /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -209,12 +264,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E1E38B8A1A9F27A600846ED5 /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		E1E38B911A9F29D000846ED5 /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E1E38B571A9F21BE00846ED5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1E38B611A9F21BE00846ED5 /* authenticator.m in Sources */,
+				E1E38B9B1A9F2DF200846ED5 /* RemoteNotificationHandler.m in Sources */,
+				E1E38B611A9F21BE00846ED5 /* Authenticator.m in Sources */,
+				E1E38B971A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.m in Sources */,
+				E1D0448C1A9F6F430056F495 /* RemoteNotificationMessageCenter.m in Sources */,
+				E1D044871A9F63550056F495 /* BARemoteNotificationMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +322,11 @@
 			isa = PBXTargetDependency;
 			target = E1E38B5A1A9F21BE00846ED5 /* authenticator */;
 			targetProxy = E1E38B681A9F21BE00846ED5 /* PBXContainerItemProxy */;
+		};
+		E1E38B901A9F29B000846ED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E38B5A1A9F21BE00846ED5 /* authenticator */;
+			targetProxy = E1E38B8F1A9F29B000846ED5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -372,6 +467,20 @@
 			};
 			name = Release;
 		};
+		E1E38B8D1A9F296700846ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1E38B8E1A9F296700846ED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -391,6 +500,7 @@
 				E1E38B711A9F21BE00846ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1E38B721A9F21BE00846ED5 /* Build configuration list for PBXNativeTarget "authenticatorTests" */ = {
 			isa = XCConfigurationList;
@@ -399,6 +509,16 @@
 				E1E38B741A9F21BE00846ED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E38B8C1A9F296700846ED5 /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E38B8D1A9F296700846ED5 /* Debug */,
+				E1E38B8E1A9F296700846ED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
