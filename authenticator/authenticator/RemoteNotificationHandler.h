@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BARemoteNotificationMessage.h"
 
 @interface RemoteNotificationHandler : NSObject
 

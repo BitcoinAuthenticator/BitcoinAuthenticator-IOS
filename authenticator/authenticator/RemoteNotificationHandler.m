@@ -7,6 +7,7 @@
 //
 
 #import "RemoteNotificationHandler.h"
+#import "BARemoteNotificationMessage.h"
 
 @implementation RemoteNotificationHandler
 
