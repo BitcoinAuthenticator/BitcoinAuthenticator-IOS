@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+/** Collects and manages all remote notification messages received for the authenticator
+*/
 @interface RemoteNotificationMessageCenter : NSObject
 
 @end

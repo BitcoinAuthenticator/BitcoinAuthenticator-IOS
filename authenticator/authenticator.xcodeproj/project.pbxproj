@@ -22,9 +22,13 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		E1D044861A9F63550056F495 /* BARemoteNotificationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */; };
+		E121FD231AA45AD90084082D /* BAPairingProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E121FD211AA45AD90084082D /* BAPairingProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E121FD241AA45AD90084082D /* BAPairingProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E121FD221AA45AD90084082D /* BAPairingProtocol.m */; };
+		E121FD271AA45D110084082D /* BAPairingData.h in Headers */ = {isa = PBXBuildFile; fileRef = E121FD251AA45D110084082D /* BAPairingData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E121FD281AA45D110084082D /* BAPairingData.m in Sources */ = {isa = PBXBuildFile; fileRef = E121FD261AA45D110084082D /* BAPairingData.m */; };
+		E1D044861A9F63550056F495 /* BARemoteNotificationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1D044871A9F63550056F495 /* BARemoteNotificationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */; };
-		E1D0448B1A9F6F430056F495 /* RemoteNotificationMessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */; };
+		E1D0448B1A9F6F430056F495 /* RemoteNotificationMessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1D0448C1A9F6F430056F495 /* RemoteNotificationMessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */; };
 		E1E38B5F1A9F21BE00846ED5 /* Authenticator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E1E38B5E1A9F21BE00846ED5 /* Authenticator.h */; };
 		E1E38B611A9F21BE00846ED5 /* Authenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E38B601A9F21BE00846ED5 /* Authenticator.m */; };
@@ -69,6 +73,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E121FD211AA45AD90084082D /* BAPairingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPairingProtocol.h; sourceTree = "<group>"; };
+		E121FD221AA45AD90084082D /* BAPairingProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPairingProtocol.m; sourceTree = "<group>"; };
+		E121FD251AA45D110084082D /* BAPairingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPairingData.h; sourceTree = "<group>"; };
+		E121FD261AA45D110084082D /* BAPairingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPairingData.m; sourceTree = "<group>"; };
 		E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARemoteNotificationMessage.h; sourceTree = "<group>"; };
 		E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARemoteNotificationMessage.m; sourceTree = "<group>"; };
 		E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotificationMessageCenter.h; sourceTree = "<group>"; };
@@ -107,6 +115,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E121FD1F1AA45A970084082D /* APNS */ = {
+			isa = PBXGroup;
+			children = (
+				E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */,
+				E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */,
+				E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */,
+				E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */,
+				E1E38B981A9F2DF200846ED5 /* RemoteNotificationHandler.h */,
+				E1E38B991A9F2DF200846ED5 /* RemoteNotificationHandler.m */,
+			);
+			name = APNS;
+			sourceTree = "<group>";
+		};
+		E121FD201AA45AB60084082D /* Pairing */ = {
+			isa = PBXGroup;
+			children = (
+				E121FD211AA45AD90084082D /* BAPairingProtocol.h */,
+				E121FD221AA45AD90084082D /* BAPairingProtocol.m */,
+				E121FD251AA45D110084082D /* BAPairingData.h */,
+				E121FD261AA45D110084082D /* BAPairingData.m */,
+			);
+			name = Pairing;
+			sourceTree = "<group>";
+		};
 		E1E38B521A9F21BE00846ED5 = {
 			isa = PBXGroup;
 			children = (
@@ -130,16 +162,12 @@
 		E1E38B5D1A9F21BE00846ED5 /* authenticator */ = {
 			isa = PBXGroup;
 			children = (
-				E1E38B981A9F2DF200846ED5 /* RemoteNotificationHandler.h */,
-				E1E38B991A9F2DF200846ED5 /* RemoteNotificationHandler.m */,
+				E121FD201AA45AB60084082D /* Pairing */,
+				E121FD1F1AA45A970084082D /* APNS */,
 				E1E38B941A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.h */,
 				E1E38B951A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.m */,
 				E1E38B5E1A9F21BE00846ED5 /* Authenticator.h */,
 				E1E38B601A9F21BE00846ED5 /* Authenticator.m */,
-				E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */,
-				E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */,
-				E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */,
-				E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */,
 			);
 			path = authenticator;
 			sourceTree = "<group>";
@@ -169,8 +197,10 @@
 			files = (
 				E1E38B961A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.h in Headers */,
 				E1E38B9A1A9F2DF200846ED5 /* RemoteNotificationHandler.h in Headers */,
-				E1D044861A9F63550056F495 /* BARemoteNotificationMessage.h in Headers */,
+				E121FD271AA45D110084082D /* BAPairingData.h in Headers */,
 				E1D0448B1A9F6F430056F495 /* RemoteNotificationMessageCenter.h in Headers */,
+				E1D044861A9F63550056F495 /* BARemoteNotificationMessage.h in Headers */,
+				E121FD231AA45AD90084082D /* BAPairingProtocol.h in Headers */,
 				E1E38B7C1A9F233200846ED5 /* Authenticator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,8 +331,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E38B9B1A9F2DF200846ED5 /* RemoteNotificationHandler.m in Sources */,
+				E121FD241AA45AD90084082D /* BAPairingProtocol.m in Sources */,
 				E1E38B611A9F21BE00846ED5 /* Authenticator.m in Sources */,
 				E1E38B971A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.m in Sources */,
+				E121FD281AA45D110084082D /* BAPairingData.m in Sources */,
 				E1D0448C1A9F6F430056F495 /* RemoteNotificationMessageCenter.m in Sources */,
 				E1D044871A9F63550056F495 /* BARemoteNotificationMessage.m in Sources */,
 			);

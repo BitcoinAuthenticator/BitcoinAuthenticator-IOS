@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "BAPairingProtocol.h"
 
 @interface Authenticator : NSObject
+
++(BAPairingProtocol*)pair:(NSString*)data;
++(void)addPairing:(BAPairingData*)data;
 
 @end

@@ -10,4 +10,14 @@
 
 @implementation Authenticator
 
++(BAPairingProtocol*)pair:(NSString*)data
+{
+    return [[BAPairingProtocol alloc] initWithData:data];
+}
+
++(void)addPairing:(BAPairingData*)data
+{
+    
+}
+
 @end
