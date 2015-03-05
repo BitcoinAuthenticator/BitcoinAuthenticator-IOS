@@ -15,9 +15,32 @@
     return [[BAPairingProtocol alloc] initWithData:data];
 }
 
-+(void)addPairing:(BAPairingData*)data
-{
-    
-}
+//+(BOOL)addPairing:(BAPairingData*)data
+//{
+//    return [self performSaveOnManagedObjectsContext];
+//}
+
+//
+//+(BOOL)performSaveOnManagedObjectsContext {
+//    NSManagedObjectContext *context = [(AuthenticatorAppDelegateExtender*)[[UIApplication sharedApplication] delegate] managedObjectContext];
+//    NSError *error;
+//    if (![context save:&error]) {
+//        NSLog(@"Whoops, couldn't save: %@", [error localizedDescription]);
+//        return NO;
+//    }
+//    return YES;
+//}
+//
+//+(NSArray*)fetchCDObjectWithName:(NSString*)name
+//{
+//    NSManagedObjectContext *context = [(AuthenticatorAppDelegateExtender*)[[UIApplication sharedApplication] delegate] managedObjectContext];
+//    NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] init];
+//    NSEntityDescription *entity = [NSEntityDescription
+//                                   entityForName:name inManagedObjectContext:context];
+//    [fetchRequest setEntity:entity];
+//    NSError *error;
+//    
+//    return [context executeFetchRequest:fetchRequest error:&error];
+//}
 
 @end

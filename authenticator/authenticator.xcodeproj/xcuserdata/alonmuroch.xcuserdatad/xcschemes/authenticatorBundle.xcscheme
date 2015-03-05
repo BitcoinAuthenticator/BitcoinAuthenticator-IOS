@@ -14,34 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1E38B5A1A9F21BE00846ED5"
-               BuildableName = "libauthenticator.a"
-               BlueprintName = "authenticator"
-               ReferencedContainer = "container:authenticator.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1E38B651A9F21BE00846ED5"
-               BuildableName = "authenticatorTests.xctest"
-               BlueprintName = "authenticatorTests"
-               ReferencedContainer = "container:authenticator.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "E117EDC81AA851D70002BD3D"
                BuildableName = "authenticatorBundle.bundle"
                BlueprintName = "authenticatorBundle"
@@ -56,26 +28,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E1E38B651A9F21BE00846ED5"
-               BuildableName = "authenticatorTests.xctest"
-               BlueprintName = "authenticatorTests"
-               ReferencedContainer = "container:authenticator.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1E38B5A1A9F21BE00846ED5"
-            BuildableName = "libauthenticator.a"
-            BlueprintName = "authenticator"
-            ReferencedContainer = "container:authenticator.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -89,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1E38B5A1A9F21BE00846ED5"
-            BuildableName = "libauthenticator.a"
-            BlueprintName = "authenticator"
+            BlueprintIdentifier = "E117EDC81AA851D70002BD3D"
+            BuildableName = "authenticatorBundle.bundle"
+            BlueprintName = "authenticatorBundle"
             ReferencedContainer = "container:authenticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -107,9 +60,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E1E38B5A1A9F21BE00846ED5"
-            BuildableName = "libauthenticator.a"
-            BlueprintName = "authenticator"
+            BlueprintIdentifier = "E117EDC81AA851D70002BD3D"
+            BuildableName = "authenticatorBundle.bundle"
+            BlueprintName = "authenticatorBundle"
             ReferencedContainer = "container:authenticator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

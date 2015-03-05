@@ -7,6 +7,7 @@
 //
 
 #import "BAPairingProtocol.h"
+#import "NSManagedObject+Manager.h"
 
 @implementation BAPairingProtocol
 
@@ -22,28 +23,30 @@
 -(BAPairingData*)pairingData
 {
     if(![self isValid]) return nil;
-    BAPairingData *ret = [[BAPairingData alloc] init];
+    BAPairingData *ret = [BAPairingData _managedObject];
     
     NSArray *arr = [data componentsSeparatedByString:@"&"];
     
-    ret.AESKey      = [arr[0] componentsSeparatedByString:@"="][1];
+    ret.aesKey      = [arr[0] componentsSeparatedByString:@"="][1];
     ret.PubIP       = [arr[1] componentsSeparatedByString:@"="][1];
     ret.LocalIP     = [arr[2] componentsSeparatedByString:@"="][1];
     ret.pairingName = [arr[3] componentsSeparatedByString:@"="][1];
     ret.walletType  = [arr[4] componentsSeparatedByString:@"="][1];
-    ret.netType     = [[arr[5] componentsSeparatedByString:@"="][1] intValue];
+    ret.netType     = [NSNumber numberWithInt:[[arr[5] componentsSeparatedByString:@"="][1] intValue]];
     ret.walletIdx   = [self getWalletIndexFromHex:[arr[6] componentsSeparatedByString:@"="][1]];
+    
+    [BAPairingData _saveContext];
     
     return ret;
 }
 
--(long)getWalletIndexFromHex:(NSString*)s
+-(NSNumber*)getWalletIndexFromHex:(NSString*)s
 {
     NSScanner* pScanner = [NSScanner scannerWithString: s];
     
     unsigned long long iValue2;
     [pScanner scanHexLongLong: &iValue2];
-    return iValue2;
+    return [NSNumber numberWithLongLong:iValue2];
 }
 
 -(BOOL)isValid

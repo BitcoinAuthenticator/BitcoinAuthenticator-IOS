@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AuthenticatorBundle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Framework.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -14,9 +19,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>authenticatorBundle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>E117EDC81AA851D70002BD3D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1513E3D1AA77B10007EECFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>E1E38B5A1A9F21BE00846ED5</key>
 		<dict>
 			<key>primary</key>

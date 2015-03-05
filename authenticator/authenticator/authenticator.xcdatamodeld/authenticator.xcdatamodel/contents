@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14C109" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="BAPairingData" representedClassName="BAPairingData" syncable="YES">
+        <attribute name="aesKey" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localIP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="netType" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="pairingName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pubIP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="walletIdx" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="walletType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="BAPairingData" positionX="-1035" positionY="14" width="128" height="148"/>
+    </elements>
+</model>

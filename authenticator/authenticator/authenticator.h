@@ -6,12 +6,15 @@
 //  Copyright (c) 2015 Bitcoin Authenticator. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#include "AuthenticatorAppDelegateExtender.h"
+#import "BAPairingData.h"
 #import "BAPairingProtocol.h"
 
 @interface Authenticator : NSObject
 
 +(BAPairingProtocol*)pair:(NSString*)data;
-+(void)addPairing:(BAPairingData*)data;
+//+(BOOL)addPairing:(BAPairingData*)data;
+//
+//+(NSArray*)fetchCDObjectWithName:(NSString*)name;
 
 @end
