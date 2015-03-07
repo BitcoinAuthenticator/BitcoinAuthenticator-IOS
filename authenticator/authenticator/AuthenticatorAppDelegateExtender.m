@@ -48,7 +48,7 @@
 
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
 {
-    [RemoteNotificationHandler handle:userInfo];
+    [RemoteNotificationHandler handleReceivedAPNS:userInfo];
 }
 
 //#pragma NSManagedObject methods

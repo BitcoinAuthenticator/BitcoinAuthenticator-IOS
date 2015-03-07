@@ -8,8 +8,14 @@
         <attribute name="pubIP" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="walletIdx" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
         <attribute name="walletType" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pendigNotifications" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="BARemoteNotificationData" syncable="YES"/>
+    </entity>
+    <entity name="BARemoteNotificationData" representedClassName="BARemoteNotificationData" syncable="YES">
+        <attribute name="data" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
     </entity>
     <elements>
-        <element name="BAPairingData" positionX="-1035" positionY="14" width="128" height="148"/>
+        <element name="BAPairingData" positionX="-1080" positionY="14" width="128" height="163"/>
+        <element name="BARemoteNotificationData" positionX="-1298" positionY="35" width="128" height="73"/>
     </elements>
 </model>

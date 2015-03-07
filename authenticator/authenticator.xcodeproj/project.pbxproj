@@ -29,13 +29,13 @@
 		E1513E391AA7760C007EECFC /* NSManagedObject+Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = E1902F131AA70A9D00CBEEDE /* NSManagedObject+Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1902F001AA6FB7500CBEEDE /* authenticator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E1902EFE1AA6FB7500CBEEDE /* authenticator.xcdatamodeld */; };
 		E1902F061AA6FEC900CBEEDE /* authenticator.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = E1902EFE1AA6FB7500CBEEDE /* authenticator.xcdatamodeld */; };
-		E1902F191AA70F7100CBEEDE /* BAPairingData.h in Headers */ = {isa = PBXBuildFile; fileRef = E1902F171AA70F7100CBEEDE /* BAPairingData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1902F1A1AA70F7100CBEEDE /* BAPairingData.m in Sources */ = {isa = PBXBuildFile; fileRef = E1902F181AA70F7100CBEEDE /* BAPairingData.m */; };
-		E1D044861A9F63550056F495 /* BARemoteNotificationMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1D044871A9F63550056F495 /* BARemoteNotificationMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */; };
-		E1D0448B1A9F6F430056F495 /* RemoteNotificationMessageCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1D0448C1A9F6F430056F495 /* RemoteNotificationMessageCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */; };
+		E1D044861A9F63550056F495 /* BARemoteNotificationMessageParser.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D044841A9F63550056F495 /* BARemoteNotificationMessageParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D044871A9F63550056F495 /* BARemoteNotificationMessageParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D044851A9F63550056F495 /* BARemoteNotificationMessageParser.m */; };
 		E1D236B91AA5A74C009C0D0C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1D236B81AA5A74C009C0D0C /* CoreData.framework */; };
+		E1DB22931AA9961600AAC962 /* BARemoteNotificationData.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DB22911AA9961600AAC962 /* BARemoteNotificationData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DB22941AA9961600AAC962 /* BARemoteNotificationData.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DB22921AA9961600AAC962 /* BARemoteNotificationData.m */; };
+		E1DB22971AA9961600AAC962 /* BAPairingData.h in Headers */ = {isa = PBXBuildFile; fileRef = E1DB22951AA9961600AAC962 /* BAPairingData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1DB22981AA9961600AAC962 /* BAPairingData.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DB22961AA9961600AAC962 /* BAPairingData.m */; };
 		E1E38B5F1A9F21BE00846ED5 /* Authenticator.h in Copy Files */ = {isa = PBXBuildFile; fileRef = E1E38B5E1A9F21BE00846ED5 /* Authenticator.h */; };
 		E1E38B611A9F21BE00846ED5 /* Authenticator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1E38B601A9F21BE00846ED5 /* Authenticator.m */; };
 		E1E38B671A9F21BE00846ED5 /* libauthenticator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E38B5B1A9F21BE00846ED5 /* libauthenticator.a */; };
@@ -91,13 +91,13 @@
 		E1902EFF1AA6FB7500CBEEDE /* authenticator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = authenticator.xcdatamodel; sourceTree = "<group>"; };
 		E1902F131AA70A9D00CBEEDE /* NSManagedObject+Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+Manager.h"; sourceTree = "<group>"; };
 		E1902F141AA70A9D00CBEEDE /* NSManagedObject+Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+Manager.m"; sourceTree = "<group>"; };
-		E1902F171AA70F7100CBEEDE /* BAPairingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPairingData.h; sourceTree = "<group>"; };
-		E1902F181AA70F7100CBEEDE /* BAPairingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPairingData.m; sourceTree = "<group>"; };
-		E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARemoteNotificationMessage.h; sourceTree = "<group>"; };
-		E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARemoteNotificationMessage.m; sourceTree = "<group>"; };
-		E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNotificationMessageCenter.h; sourceTree = "<group>"; };
-		E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNotificationMessageCenter.m; sourceTree = "<group>"; };
+		E1D044841A9F63550056F495 /* BARemoteNotificationMessageParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARemoteNotificationMessageParser.h; sourceTree = "<group>"; };
+		E1D044851A9F63550056F495 /* BARemoteNotificationMessageParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARemoteNotificationMessageParser.m; sourceTree = "<group>"; };
 		E1D236B81AA5A74C009C0D0C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E1DB22911AA9961600AAC962 /* BARemoteNotificationData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BARemoteNotificationData.h; sourceTree = "<group>"; };
+		E1DB22921AA9961600AAC962 /* BARemoteNotificationData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BARemoteNotificationData.m; sourceTree = "<group>"; };
+		E1DB22951AA9961600AAC962 /* BAPairingData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAPairingData.h; sourceTree = "<group>"; };
+		E1DB22961AA9961600AAC962 /* BAPairingData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BAPairingData.m; sourceTree = "<group>"; };
 		E1E38B5B1A9F21BE00846ED5 /* libauthenticator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libauthenticator.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E38B5E1A9F21BE00846ED5 /* Authenticator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Authenticator.h; sourceTree = "<group>"; };
 		E1E38B601A9F21BE00846ED5 /* Authenticator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Authenticator.m; sourceTree = "<group>"; };
@@ -159,10 +159,8 @@
 		E121FD1F1AA45A970084082D /* APNS */ = {
 			isa = PBXGroup;
 			children = (
-				E1D044841A9F63550056F495 /* BARemoteNotificationMessage.h */,
-				E1D044851A9F63550056F495 /* BARemoteNotificationMessage.m */,
-				E1D044891A9F6F430056F495 /* RemoteNotificationMessageCenter.h */,
-				E1D0448A1A9F6F430056F495 /* RemoteNotificationMessageCenter.m */,
+				E1D044841A9F63550056F495 /* BARemoteNotificationMessageParser.h */,
+				E1D044851A9F63550056F495 /* BARemoteNotificationMessageParser.m */,
 				E1E38B981A9F2DF200846ED5 /* RemoteNotificationHandler.h */,
 				E1E38B991A9F2DF200846ED5 /* RemoteNotificationHandler.m */,
 			);
@@ -205,8 +203,10 @@
 		E1D236C11AA5AC5E009C0D0C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E1902F171AA70F7100CBEEDE /* BAPairingData.h */,
-				E1902F181AA70F7100CBEEDE /* BAPairingData.m */,
+				E1DB22951AA9961600AAC962 /* BAPairingData.h */,
+				E1DB22961AA9961600AAC962 /* BAPairingData.m */,
+				E1DB22911AA9961600AAC962 /* BARemoteNotificationData.h */,
+				E1DB22921AA9961600AAC962 /* BARemoteNotificationData.m */,
 				E1902F131AA70A9D00CBEEDE /* NSManagedObject+Manager.h */,
 				E1902F141AA70A9D00CBEEDE /* NSManagedObject+Manager.m */,
 			);
@@ -280,11 +280,11 @@
 			files = (
 				E1E38B961A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.h in Headers */,
 				E1E38B9A1A9F2DF200846ED5 /* RemoteNotificationHandler.h in Headers */,
-				E1D0448B1A9F6F430056F495 /* RemoteNotificationMessageCenter.h in Headers */,
-				E1D044861A9F63550056F495 /* BARemoteNotificationMessage.h in Headers */,
+				E1D044861A9F63550056F495 /* BARemoteNotificationMessageParser.h in Headers */,
 				E121FD231AA45AD90084082D /* BAPairingProtocol.h in Headers */,
-				E1902F191AA70F7100CBEEDE /* BAPairingData.h in Headers */,
 				E1E38B7C1A9F233200846ED5 /* Authenticator.h in Headers */,
+				E1DB22931AA9961600AAC962 /* BARemoteNotificationData.h in Headers */,
+				E1DB22971AA9961600AAC962 /* BAPairingData.h in Headers */,
 				E1513E391AA7760C007EECFC /* NSManagedObject+Manager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,13 +461,13 @@
 			files = (
 				E1513E381AA77602007EECFC /* NSManagedObject+Manager.m in Sources */,
 				E1E38B9B1A9F2DF200846ED5 /* RemoteNotificationHandler.m in Sources */,
+				E1DB22981AA9961600AAC962 /* BAPairingData.m in Sources */,
 				E1902F001AA6FB7500CBEEDE /* authenticator.xcdatamodeld in Sources */,
-				E1902F1A1AA70F7100CBEEDE /* BAPairingData.m in Sources */,
 				E121FD241AA45AD90084082D /* BAPairingProtocol.m in Sources */,
 				E1E38B611A9F21BE00846ED5 /* Authenticator.m in Sources */,
+				E1DB22941AA9961600AAC962 /* BARemoteNotificationData.m in Sources */,
 				E1E38B971A9F2DE700846ED5 /* AuthenticatorAppDelegateExtender.m in Sources */,
-				E1D0448C1A9F6F430056F495 /* RemoteNotificationMessageCenter.m in Sources */,
-				E1D044871A9F63550056F495 /* BARemoteNotificationMessage.m in Sources */,
+				E1D044871A9F63550056F495 /* BARemoteNotificationMessageParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +696,7 @@
 				E117EDCF1AA851D70002BD3D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E1E38B561A9F21BE00846ED5 /* Build configuration list for PBXProject "authenticator" */ = {
 			isa = XCConfigurationList;
